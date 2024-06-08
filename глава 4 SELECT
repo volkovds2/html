@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECT</title>
+    <style>
+        form {
+            border: 1px solid black;
+            padding: 10px;
+            width: 420px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="index.html" method="post">
+        <select>
+            <option value=""> Нью Йорк</option>
+        </select>
+
+        <select size="3">
+            <option value=""> Москва</option>
+            <option value="">Киев</option>
+            <option value=""> Нью Йорк</option>
+
+        </select>
+
+        <select size="5">
+            <option value=""> Минск</option>
+            <option value=""> Москва</option>
+            <option value=""> Киев</option>
+            <option value=""> Нью Йорк</option>
+            <option value=""> Варшава</option>
+
+        </select>
+        <input type="button" name="name" value="Отправить на сервер">
+
+    </form>
+
+</body>
+
+</html>

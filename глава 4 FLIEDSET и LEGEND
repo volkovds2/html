@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIELDSET и LEGEND</title>
+    <style>
+        form {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="index.html" method="post">
+        <fieldset>
+            <legend> Выберите кнопочку</legend>
+            <input type="radio" id="radio1" name="radio">
+            <input type="radio" id="radio2" name="radio">
+            <input type="radio" id="radio3" name="radio">
+            <input type="text" id="name" name="student_name" placeholder="Ваше имя...">
+        </fieldset>
+        <br></br>
+        <fieldset>
+            <legend> Выберите кнопочку</legend>
+            <input type="radio" id="radio4" name="radio">
+            <input type="radio" id="radio5" name="radio">
+            <input type="radio" id="radio6" name="radio">
+            <input type="radio" id="radio7" name="radio" disabled>
+            <input type="radio" id="radio8" name="radio" disabled>
+        </fieldset>
+        <br></br>
+        <input type="button" value="Отправить на сервер">
+    </form>
+
+</body>
+
+</html>

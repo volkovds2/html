@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Глава 3</title>
+    <style>
+        form {
+            border: 1px solid black;
+            padding: 10px;
+            width: 480px;
+        }
+
+        .radio-labels {
+            border: 2px solid black;
+            padding: 5px;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="index.html" method="post">
+        <input type="checkbox" id="checkbox1" name="1">
+        <label for="checkbox1">Это метка для чекбокса: нажмите на меня - чекбокс сменит галочку!</label>
+        <br> </br>
+        <input type="checkbox" id="checkbox2" checked name="2">
+        <label for="checkbox2">Я отмечен по умолчанию!</label>
+        <br> </br>
+        <input type="checkbox" id="checkbox3" disabled name="3" checked>
+        <label for="checkbox3">Я disabled!</label>
+        <br> </br>
+        <div class="radio-labels">
+            <p> Это группа радиокнопок - только одна из них может быть отмечена!</p>
+            <input type="radio" id="radio1" name="radio">
+            <label for="radio1">Это метка для радио</label>
+            <br> </br>
+            <input type="radio" id="radio2" name="radio">
+            <label for="radio2">Это метка для радио</label>
+        </div>
+        <br> </br>
+        <input type="button" name="name" value="Отправить на сервер">
+
+
+    </form>
+</body>
+
+</html>
